@@ -1,0 +1,26 @@
+.header{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header:hover{
+    background-color: rgba(0,0,0,.85);
+}
+
+.header .contact {
+    cursor:pointer;
+}
+.header .contact span:last-child{
+    margin-left: 25px;
+}
+
+.header .link i {
+    margin: 0 10px;
+}
+
+.header .link a:hover{
+    color:rgba(0,0,0,.80);
+}
